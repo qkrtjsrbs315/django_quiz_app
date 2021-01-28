@@ -1,0 +1,40 @@
+{% load static %}
+<html>
+<head>
+<meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{% static 'detail.css' %}">
+<title>SUNRIN QUIZ</title>
+    <script>
+          function enterkey(){
+
+        var keyCode = window.event.keyCode;
+
+        if (keyCode == 13) { //엔테키 이면
+
+            location.href = "{{next}}"
+
+        }
+       }
+    </script>
+</head>
+<body onkeydown="enterkey()">
+<div class="main">
+	<div class="level">Level 1</div>
+	<div class="quiz_box">{{choice.title}}</div>
+     <form method="post" name="loginForm">
+            {% csrf_token %}
+	<div class="quiz_btn">
+            <button id = "option1" name="option1" onclick="check(this)" value="{{choice.option1}}">{{choice.option1}}</button>
+            <button id = "option2" name="option2" onclick="check(this)" value="{{choice.option2}}">{{choice.option2}}</button>
+            <button id = "option3" name="option3" onclick="check(this)" value="{{choice.option3}}">{{choice.option3}}</button>
+            <button id = "option4" name="option4" onclick="check(this)" value="{{choice.option4}}">{{choice.option4}}</button>
+    </div>
+     </form>
+</div>
+<div class="hint">
+	<img id="right_hint" onclick="alert('{{choice.hint}}')" src="{% static 'Right hint fairy1.PNG' %}" width="476" height="469">
+	<img id="left_hint" onclick="alert('{{choice.hint}}')" src="{% static 'left hint fairy1.png' %}" width="476" height="469">
+</div>
+</body>
+</html>

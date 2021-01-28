@@ -1,0 +1,82 @@
+@font-face {font-family: "Elephant";
+	src: url("//db.onlinewebfonts.com/t/76e4f7ec874825c077cc2961142f102c.eot");
+	src: url("//db.onlinewebfonts.com/t/76e4f7ec874825c077cc2961142f102c.eot?#iefix")
+    format("embedded-opentype");
+}
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,body {
+  background:#3B68E2;
+  padding: 10px;
+  text-align: center;
+}
+
+.login-group {
+  background:white;
+  border: black solid 10px;
+  color: black;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 800px;
+  height: 500px;
+  text-align: center;
+}
+.login-group-checkbox {
+  padding: 5px 0;
+}
+.welcome {
+font-family: "Elephant";
+  padding: 15px 0;
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+}
+input{
+    margin: 5% auto 0;
+}
+label{
+    font-size: 40px;
+}
+.form{
+    font-family: 'S-CoreDream-6Bold';
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-control{
+    font-size: 30px;
+    line-height: 50px;
+    font-family: 'S-CoreDream-6Bold';
+    margin-left: -40px;
+}
+.sr-only{
+    float: left;
+    margin: 5% 5% 0;
+}
+.login-button{
+    background-color: black;
+    color: white;
+    width: 250px;
+    margin: 50px auto 40px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: 'S-CoreDream-6Bold'
+}
+.backtologin{
+    color:white;
+    font-size: 20px;
+}
+#pw{
+    text-decoration: none;
+}
+a{
+    color: white;
+    font-size: 20px;
+}

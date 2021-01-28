@@ -1,0 +1,95 @@
+@font-face {font-family: "Elephant";
+	src: url("//db.onlinewebfonts.com/t/76e4f7ec874825c077cc2961142f102c.eot");
+	src: url("//db.onlinewebfonts.com/t/76e4f7ec874825c077cc2961142f102c.eot?#iefix")
+	format("embedded-opentype")
+	}
+
+    @font-face {
+        font-family: 'S-CoreDream-6Bold';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+   }
+
+	body{
+	padding: 0;
+	margin: 0;
+	background-color: #3B68E2;
+	text-align: center;
+	}
+
+	.quiz_btn{
+		display: flex;
+        justify-content: center;
+        align-items: center;
+		flex-direction: column;
+	}
+
+	.quiz_btn > button {
+		background-color: black;
+		color: white;
+		width: 975px;
+		margin: 20px;
+		text-align: center;
+		line-height: 5px;
+		font-size: 30px;
+		padding: 50px;
+		font-size: 60px;
+		font-family: 'S-CoreDream-6Bold';
+		border-radius: 50px;
+		text-decoration: none;
+	}
+	button:focus,button:hover,
+	button:active,button:visited
+	button:focus{
+		text-decoration: none;
+	}
+
+
+	.quiz_box {
+		background-color: white;
+		display: flex;
+        justify-content: center;
+		flex-direction: column;
+        font-family: 'S-CoreDream-6Bold';
+		text-align: center;
+		font-size: 65px;
+		margin: 40px auto 20px;
+        width: 80%;
+        border: 5px solid rgba(112,112,112,1);
+
+	}
+	.level {
+		background-color: white;
+		display: flex;
+        justify-content: center;
+		flex-direction: column;
+        font-size: 110px;
+        font-family: "Elephant";
+		text-align: center;
+		margin: 30px auto 0;
+        width: 30%;
+        height: 15%;
+        border: 3px solid black;
+		margin-top: -100px;
+
+	}
+	.hint{
+		cursor: pointer;
+		margin-top:-470px;
+	}
+	#left_hint {
+		float: left;
+	}
+	#right_hint {
+		float: right;
+	}
+	.main{
+		background: white;
+		border: black solid 10px;
+		text-align: center;
+		width: 1520px;
+		border-radius: 100px;
+		padding: 10px 20px;
+		margin: 124px auto 0;
+	}

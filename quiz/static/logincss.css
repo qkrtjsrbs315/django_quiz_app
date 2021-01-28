@@ -1,0 +1,108 @@
+@font-face {font-family: "Elephant";
+	src: url("//db.onlinewebfonts.com/t/76e4f7ec874825c077cc2961142f102c.eot");
+	src: url("//db.onlinewebfonts.com/t/76e4f7ec874825c077cc2961142f102c.eot?#iefix")
+    format("embedded-opentype");
+}
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    text-align: center;
+    background-color: #3B68E2;
+
+}
+#SUNRIN{
+    text-align: center;
+    font-family: "Elephant";
+    font-size: 200px;
+    color: white;
+    margin: 70px auto 0;
+
+}
+
+#QUIZ{
+    text-align: center;
+    font-family: "Elephant";
+    font-size: 200px;
+    color:white;
+}
+
+.id{
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    font-family: 'S-CoreDream-6Bold';
+    font-size: 50px;
+    color: black;
+    border: 2px solid black;
+    margin: 30px auto 0;
+
+}
+
+#idname{
+    width:550px;
+    height:80px;
+    font-family: 'S-CoreDream-6Bold';
+    font-size:37px;
+    border: none;
+}
+
+.password{
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    font-family: 'S-CoreDream-6Bold';
+    font-size: 50px;
+    color: black;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+#pwname{
+    width:500px;
+    height:80px;
+    font-size:37px;
+    border: none;
+}
+
+.submit_btn {
+    background-color: white;
+    font-family: "Elephant";
+    font-size: 55px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    margin: 15px auto;
+    width: 40%;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50px;
+}
+input:focus {
+    outline:none
+}
+
+.help_btn {
+    text-align: center;
+    font-family: 'S-CoreDream-6Bold';
+    font-size: 30px;
+    text-decoration: none;
+    float: right;
+    margin: auto 30% 0;
+    vertical-align: middle
+
+}
+
+a {
+    text-decoration: none; color: white;
+    text-align: center;
+    margin: auto;
+}
+#WHAT,#HELP{
+    padding: 10px;
+}
+
+

@@ -1,0 +1,46 @@
+{% load static %}
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SUNRIN QUIZ</title>
+	<link rel="stylesheet" href="{% static 'logincss.css' %}">
+	<script src="{% static 'index.js' %}">
+	 function onkeyup() {
+                if (window.event.keyCode === 13) {
+                    loginform.submit();
+                }
+            }
+</script>
+</head>
+<body>
+<div>
+	<div id="SUNRIN" style="text-align: center;">
+		<span>SUNRIN</span>
+	</div>
+
+	<div id="QUIZ">
+		<span
+				class="txt-rotate"
+				data-period="2000"
+				data-rotate='["QUIZ"]'>
+		</span>
+	</div>
+	<form method="post" name="loginform">
+      {% csrf_token %}
+		<div class="id">
+			아이디 <input type="text" id="idname" name='userid' autofocus required>
+		</div>
+
+		<div class="password">
+			비밀번호   <input type="password" id="pwname" name='userpw' required>
+		</div>
+		<input type="submit" value="Login" class="submit_btn" >
+	</form>
+	<div class="help_btn">
+		<a href="{% url 'what' %}" name="" id="WHAT">WHAT?</a>
+		<a href="{% url 'register' %}" id="HELP">Sign Up</a>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{% load static %}
+<html>
+<head>
+<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SUNRIN QUIZ</title>
+<link rel="stylesheet" href="{% static 'what.css' %}">
+</head>
+<body>
+	<!-- <svg class="background">
+		<rect id="background" width="1900" height="985">
+		</rect>
+	</svg> -->
+	<div class="df">
+		<div id="SUNRIN_QIZE">
+			<span>SUNRIN QIZE</span>
+		</div>
+
+		<div id="explanation">
+			<span>1. 회원가입 후 로그인을 해주세요 <br>
+				2. 자신이 풀 수 있는 레벨을 선택하세요<br/>
+				3. 알맞는 답을 골라주세요 !<br/>
+				4. 스테이지가 끝나면 자신의 등수가 나옵니다.</span>
+		</div>
+
+		<div id="explanation1">
+			<span>재미있고 쉬운 퀴즈를 준비했습니다. <br/>
+				퀴즈를 모르겠다면 힌트요정을 클릭해주세요!<br>
+				선린인이라면 맞출 수 있는 퀴즈를 제작했습니다.<br>
+				감사합니다<br>
+
+				<span style="color:red">※본 퀴즈는 주관적일 수 있습니다※</span><br>
+				<span style="color:red">※벡엔드의 의도치않은 버그로 퀴즈를 풀때 보기를 클릭한 후 <br> 엔터를 누르시면 다음 화면으로 이동합니다※</span>
+
+			</span>
+		</div>
+
+		<button onclick="location.href='{% url 'login' %}'" class="close_button">닫기</button>
+</div>
+</body>
+</html>

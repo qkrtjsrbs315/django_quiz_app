@@ -1,0 +1,172 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#HELP {
+    left: 1186.01px;
+    top: 880px;
+    position: absolute;
+    overflow: visible;
+    width: 75px;
+    text-align: center;
+    font-family: AppleSDGothicNeoH00;
+    font-size: 30px;
+    color:black;
+}
+#WHAT {
+    left: 1044.383px;
+    top: 880px;
+    position: absolute;
+    overflow: visible;
+    width: 103px;
+    text-align: center;
+    font-family: AppleSDGothicNeoH00;
+    font-size: 30px;
+    color: rgba(0,0,0,1);
+}
+#background {
+    opacity: 0.6;
+    fill: rgba(0,0,0,1);
+}
+.background {
+    position: absolute;
+    overflow: visible;
+    width: 1900px;
+    height: 985px;
+    left: 0px;
+    top: 0px;
+}
+.background_box {
+    fill: rgba(255,255,255,1);
+    position: absolute;
+    overflow: visible;
+    width: 951px;
+    height: 777px;
+    left: 475px;
+    top: 72px;
+}
+
+#SUNRIN_QIZE {
+    left: 745.987px;
+    top: 112px;
+    position: absolute;
+    overflow: visible;
+    text-align: center;
+    font-family: Elephant;
+    font-size: 55px;
+    color: black;
+}
+
+#explanation {
+    left: 569.983px;
+    top: 222px;
+    position: absolute;
+    overflow: visible;
+    width: 763px;
+    text-align: left;
+    font-family: AppleSDGothicNeoB00;
+    font-size: 40px;
+    color: black;
+}
+
+#explanation1 {
+    left: 590px;
+    top: 493px;
+    position: absolute;
+    overflow: visible;
+    width: 708px;
+    text-align: left;
+    font-family: AppleSDGothicNeoB00;
+    font-size: 40px;
+    color: black;
+}
+
+#explanation2 {
+    left: 590px;
+    top: 607px;
+    position: absolute;
+    overflow: visible;
+    width: 905px;
+    text-align: left;
+    font-family: AppleSDGothicNeoB00;
+    font-size: 40px;
+    color:black;
+}
+
+#thank{
+    left: 863.994px;
+    top: 674px;
+    position: absolute;
+    overflow: visible;
+    width: 174px;
+    text-align: left;
+    font-family: AppleSDGothicNeoB00;
+    font-size: 40px;
+    color: black;
+}
+
+.close_button {
+    overflow: visible;
+    position: absolute;
+    width: 310px;
+    height: 47px;
+    left: 795px;
+    top: 767px;
+    color: white;
+    font-family: AppleSDGothicNeoB00;
+    font-size: 30px;
+    background-color: black;
+    cursor: pointer;
+} */
+@font-face {
+    font-family: "Elephant"; 
+	src: url("//db.onlinewebfonts.com/t/76e4f7ec874825c077cc2961142f102c.eot"); 
+	src: url("//db.onlinewebfonts.com/t/76e4f7ec874825c077cc2961142f102c.eot?#iefix") 
+    format("embedded-opentype");
+}
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #3B68E2;
+}
+#SUNRIN_QIZE{
+    font-family: "Elephant"; 
+    font-size: 50px;
+    margin: 20px auto;
+}
+.df{
+    background: white;
+    border: black solid 10px;
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+    margin: 10% 25%;
+}
+#explanation{
+    font-size: 30px;
+    font-family: 'S-CoreDream-6Bold';
+}
+#explanation1{
+    margin: 20px auto;
+    font-family: 'S-CoreDream-6Bold';
+}
+
+.close_button{
+    background-color: black;
+    font-family: 'S-CoreDream-6Bold';
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin: 15px auto;
+    width: 10%;
+    line-height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}

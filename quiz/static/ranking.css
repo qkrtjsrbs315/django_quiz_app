@@ -1,0 +1,79 @@
+    @font-face {
+    font-family: "Elephant";
+        src: url("//db.onlinewebfonts.com/t/76e4f7ec874825c077cc2961142f102c.eot");
+        src: url("//db.onlinewebfonts.com/t/76e4f7ec874825c077cc2961142f102c.eot?#iefix")
+        format("embedded-opentype");
+
+        }
+     @font-face {
+            font-family: 'S-CoreDream-6Bold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+       }
+    tr:nth-child(even){color: black;}
+    tr:nth-child(even){background-color:white}
+
+    body{
+            background:#3B68E2;
+            margin: 0;
+            padding: 0;
+    }
+
+    .rank {
+        border-spacing: 0;
+        width: 80%;
+        background-color: #7392E6;
+        font-family: 'S-CoreDream-6Bold';
+        margin: 100px auto 0;
+        text-align: center;
+	}
+
+	#Ranking {
+		font-family: "Elephant";
+		font-size: 90px;
+        color:white;
+        padding: 20px;
+        text-align: center;
+        margin: auto 0;
+    }
+
+    th, td {
+      text-align: center;
+      padding: 18px;
+    }
+
+    thead{
+        font-size: 20px;
+        background-color: #1B51E2;
+        color: white;
+    }
+
+    tbody{
+        color: white;
+    }
+
+	.home_btn {
+    fill:white;
+    transform: matrix(1,0,0,1,0,0);
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    }
+
+    #btn_location {
+    cursor: pointer;
+    float: right;
+    margin: auto 10% 0;
+    width: 60px;
+    height: 60px;
+    margin-top: -100px;
+    }
+
+    .gbtohome{
+        color: white;
+        text-align: center;
+        font-family: 'S-CoreDream-6Bold';
+        float: right;
+        margin: auto 6px 0;
+    }
